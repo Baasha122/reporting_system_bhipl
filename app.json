@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "reporting_system",
+    "name": "Reporting System",
     "slug": "reporting_system",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,6 +12,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.yourcompany.reportingsystem",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c35ba725-609c-474f-b84b-43d4a9fe6b6a"
+      }
     }
   }
 }
